@@ -13,6 +13,15 @@
         <link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 
         <style>
+            .button_cool {
+                border-radius: 98px;
+                background: linear-gradient(34deg, #34b31c, #404041);
+                box-shadow: 20px 20px 60px #020608, -20px 0px 11px 8px #af2e2e;
+            }
+            body {
+                background: rgb(36,33,92);
+                background: linear-gradient(90deg, rgba(36,33,92,1) 20%, rgba(9,75,121,0.5914740896358543) 50%, rgba(0,212,255,1) 85%);
+            }
             .image {
                 border-style: solid;
                 border-radius: 2%;
@@ -39,28 +48,45 @@
                 font-weight: 400;
                 font-style: italic;
 }
+    .greenstuff {
+       /* From https://css.glass */
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+    }
 
         </style>
          
     </head>
-    <body style="background-image: linear-gradient(62deg, #6e304a 0%, #E0C3FC 100%);padding: 2rem; direction: rtl;">
+    <body style=";padding: 2rem; direction: rtl;">
         <!-- 
 למשל 
 h1
 הוא כותרת ראשית
 
          -->
-        <h1 class="bona-nova-sc-bold">
-          חיות שאני אוהב
-        </h1>
+        <div style=" direction: rtl; text-align: center; font-size: 100px; display: flex; background-size: cover;" class="bona-nova-sc-bold">
+           מה קורה?
+          
+           <div style="width: 20%;height: 10vh;  position: absolute;  " class="greenstuff"> </div>
 
+
+        </div>
+        
+    <h1 class="bona-nova-sc-bold">    
         שיניתי את הטקסט
 
-        <p style="color: rgb(128, 42, 42);">
+    </h1>
+        
+
+        <p class="greenstuff">
             כמו פסקאות
         </p>
         <a target="_blank" href="https://www.google.com">
-        <button class="bona-nova-sc-regular" style="font-size: larger;">
+        <button class="bona-nova-sc-regular button_cool" style="font-size: larger;">
             גוגל
         </button>
     </a>
